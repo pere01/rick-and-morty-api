@@ -1,0 +1,7 @@
+.fail {
+    font-size: 40px;
+    display: flex;
+    color: lightgray;
+    justify-content: center;
+    align-items: center;
+}

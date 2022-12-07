@@ -1,0 +1,79 @@
+.App {
+    width: 100%;
+    height: 100%;
+}
+
+.resident-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+
+.App {
+    position: absolute;
+    height: 372px;
+    width: 1440px;
+    left: 0;
+    top: 0;
+    border-radius: 0px;
+    background-image: url(/public/rick-morty.jpg);
+    background-size: cover;
+}
+
+.background {
+    position: absolute;
+    height: 43%;
+    width: 454px;
+    left: 493px;
+    top: 48px;
+    border-radius: 0px;
+    background-image: url(/public/rick-morty2.png);
+    background-size: cover;
+    overflow: hidden;
+    transition: transform 100ms ease-in-out;
+}
+
+.background:hover {
+    transform: scale(1.1);
+}
+
+.btn {
+    margin-top: 23rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 5px 0 5px 0px;
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+
+}
+
+.btn-inp {
+    border: none;
+    width: 300px;
+    height: 40px;
+    background-color: rgb(202, 202, 202);
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.521);
+}
+
+.btn-search {
+    border: none;
+    width: 70px;
+    height: 50px;
+    border-radius: 6px 6px 6px 6px;
+    background-color: lightblue;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 100ms ease-in-out;
+}
+
+.btn-search:hover {
+    transform: scale(1.1);
+}
